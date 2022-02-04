@@ -2,7 +2,7 @@ import subprocess
 import json
 
 
-def save_data(name, passw,):
+def save_data(name, passw):
     """ Save data to JSON file """
     with open('passwords.json', 'a') as f_obj:
         user_data = [
