@@ -38,7 +38,7 @@ def main():
     try:
         get_password(profile_list())
     except IndexError:
-        print('error')
+        pass
     
 
 if __name__ == '__main__':
